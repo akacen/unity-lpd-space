@@ -1,0 +1,5 @@
+20.04.2022.
+
+Racing tipa spēle kosmiskās noskaņās, bet ļoti animēta.
+
+1. Spēles loģika līdzīga kā Temple run, Subway surfer - lido kosmosa kuģītis pa kosmosu (izveidot iespaidu, ka lido pa 0G un bez pamata/ceļa) un krāj punktus (monētas?). Spēles beigas (vēl jāizlemj) -> a)sakrāj noteiktu daudzumu punktus vai b) kaut kur ietriecas.
