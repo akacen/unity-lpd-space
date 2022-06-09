@@ -20,10 +20,10 @@ public class CameraFollow : MonoBehaviour
         initalOffset = transform.position - targetObject.position;    }
 
 
-    void FixedUpdate()
+    void Update()
     {
         cameraPosition = targetObject.position + CameraOffset(relativePosition);
-        transform.position = Vector3.Lerp(transform.position, cameraPosition, smoothness*Time.fixedDeltaTime);
+        transform.position = Vector3.Lerp(transform.position, cameraPosition, smoothness*Time.deltaTime);
         transform.LookAt(targetObject);
     }
 

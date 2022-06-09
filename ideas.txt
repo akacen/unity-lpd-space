@@ -16,3 +16,4 @@ spaceship controller - https://www.youtube.com/watch?v=4dhqxLfxCNU
 random position generator - https://unitycoder.com/blog/2014/08/31/beginner-instantiate-objects-at-random-positions/
 !!! overlapping UVs - https://docs.unity3d.com/Manual/ProgressiveLightmapper-UVOverlap.html
 ?? https://www.youtube.com/watch?v=De-vlDRlr14&t=2s - maybe kaut kas labs
+camera follow - https://www.codinblack.com/how-to-make-the-camera-follow-an-object-in-unity3d/
