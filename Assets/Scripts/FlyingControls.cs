@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class FlyingControls : MonoBehaviour
 {
-    public float torque = 1000f;
-    public float thrust = 1000f;
+    public float torque;
+    public float thrust;
     private float glide;
     private Rigidbody rb;
 
@@ -22,7 +22,7 @@ public class FlyingControls : MonoBehaviour
         float pitch = Input.GetAxis("Vertical");
         bool throttle = Input.GetKey("space");
 
-        rb.AddRelativeTorque(Vector3.forward * torque*10 * roll * Time.deltaTime); //for turning left and right
+        rb.AddRelativeTorque(Vector3.forward * torque * roll * Time.deltaTime); //for turning left and right
         rb.AddRelativeTorque(Vector3.left * torque * pitch * Time.deltaTime); // for turning up and down
 
         if(throttle){

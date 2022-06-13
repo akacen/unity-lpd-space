@@ -17,3 +17,5 @@ random position generator - https://unitycoder.com/blog/2014/08/31/beginner-inst
 !!! overlapping UVs - https://docs.unity3d.com/Manual/ProgressiveLightmapper-UVOverlap.html
 ?? https://www.youtube.com/watch?v=De-vlDRlr14&t=2s - maybe kaut kas labs
 camera follow - https://www.codinblack.com/how-to-make-the-camera-follow-an-object-in-unity3d/
+ui un score - https://du-dev.medium.com/creating-score-system-with-ui-in-unity-b24c71ea709f
+korutīna - https://adamwreed93.medium.com/how-to-use-ienumerator-coroutines-in-unity-b2fc70d06de1

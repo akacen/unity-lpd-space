@@ -5,19 +5,30 @@ using UnityEngine;
 public class Generator : MonoBehaviour
 {
     public GameObject asteroid;
-    public int numberOfCubes;
-    public int min, max;
+    public int min, max, count;
+    public GameObject[] asteroids;
 
     void Start()
     {
-        PlaceCubes();
+        StartCoroutine(SpawnRoutine());
     }
 
-    void PlaceCubes()
+    void update()
     {
-        for (int i = 0; i < numberOfCubes; i++)
+        
+    }
+
+    public IEnumerator SpawnRoutine()
+    {
+        while (true)
         {
             Instantiate(asteroid, GeneratedPosition(), Quaternion.identity);
+            asteroids = GameObject.FindGameObjectsWithTag("Asteroid");
+            Debug.Log(asteroids.Length);
+            if(asteroids.Length > 50){
+                Destroy(asteroids[asteroids.Length - 15]);
+            }
+            yield return new WaitForSeconds(2);
         }
     }
 
